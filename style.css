@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;1,400;1,500;1,600&display=swap');
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  margin: 0;
+}
+#prolog {
+  background-color: grey;
+  padding: 0 30px;
+  height: 100vh;
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+nav {
+  padding: 20px 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color:  rgba(34, 49, 52, 0.9);
+}
+
+a {
+  color: lightcyan;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a8b4ff;
+}
+
+.nav-item {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 56px;
+  margin-top: 0;
+  margin-bottom: 24px;
+  color: lightcyan;
+  text-align: center;
+}
+
+.display-text {
+  max-width: 100%;
+  min-width: 384px;
+  padding-top: 50px;
+}
+
+.display-ava img {
+  width: 150px;
+  border-style: none;
+  align-items: center;
+  margin-left: 470px;
+  padding-top: 90px;
+}
+
+.display-paragraph {
+  max-width: 100%;
+  padding-top: 10px;
+}
+
+p {
+  line-height: 180%;
+  margin-bottom: 64px;
+  font-weight: 300;
+  font-size: 30px;
+  text-align: center;
+}
+
+.primary-button {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 16px 48px;
+  position: relative;
+}
+
+.primary-button:hover{
+  opacity: 0.75;
+}
+
+.display-container {
+  display: contents;
+  height: calc(100% - 38px);
+  align-items: center;
+}
+
+/* Me */
+#Me {
+  min-height: 100vh;
+  padding: 0 30px;
+  background-image: url(/image/20150207_180758.png);
+}
+
+.flex-container{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+h3{
+  color: rgba(34, 49, 52, 0.9);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.category{
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.left-content h1 {
+  color: black;
+}
+
+p.description{
+  width: 445px;
+  text-align: justify;
+}
+
+.project{
+  height: auto;
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+/* footer */
+#footer {
+  background-color: #eaecf9;
+  padding: 0 30px;
+  min-height: 50vh;
+  padding-top: 50px;
+}
+
+.flex-footer{
+  height: 50vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-paragraph{
+  max-width: 544px;
+}
+
+.footer-text{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
